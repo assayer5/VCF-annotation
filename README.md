@@ -1,6 +1,6 @@
 
 ### Overview
-Parsed a VCF file to generate queries to an API, annotating the variants with API response. 
+Parsed a VCF file to generate queries to an API, annotating the variants with API response. Unit tested functions in test_VCF_annotation_functions.
 
 ### Annotations
 - NR: depth of sequence coverage at the site of variation
