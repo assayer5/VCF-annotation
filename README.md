@@ -1,17 +1,17 @@
 
 ### Overview
-Parsed a VCF file to generate queries to an API, annotating the variants with API response. Unit tested functions in test_VCF_annotation_functions.
+Parsed text of a VCF file to generate queries to a database API, annotated the file with data from API response, unit tested functions.
 
 ### Some Details
-A Variant Call Format (VCF) file is a text file used in genome sequencing. VCF files list the differences in the genome sequenced when compared to a reference genome. These variations in the genome sequence can sometimes be linked to a particular trait or disease. 
+In genetics, A Variant Call Format (VCF) file is the text output comparing a sequenced sample (the 'genome of interest') to a reference genome. VCF files tabulate the strings of nucleotides in the sample that don't match the reference genome. These variations in the genome sequence can sometimes be linked to a particular trait or disease. 
 
-To extract further information from a VCF file, these notebooks parse the text of the file and access an online database via API to request information on each variant. The data pulled from the database is used to annotate the sequence variants with additional information. 
+To extract further information from a VCF file, I parse the text of the file and access an online database via API to request information on each variant. I used the data pulled from the database to annotate the sequence variants with additional information. 
 
 
 Although these notebooks can easily be converted to Python files, the notebook format conveniently shows the code output:
-- *VCF_annotation.ipynb* - the main file used to parse the VCF file and query the database
-- *VCF_annotation_functions.ipynb* - functions used to parse and format the data, separated from the main file for neatness
-- *test_VCF_annotation_functions.ipynb* - unit testing functions
+>- *VCF_annotation.ipynb* - the main file used to parse the VCF file and query the database
+>- *VCF_annotation_functions.ipynb* - functions used to parse and format the data, separated from the main file for neatness
+>- *test_VCF_annotation_functions.ipynb* - unit testing functions
 
 Annotations used:
 - NR: depth of sequence coverage at the site of variation
