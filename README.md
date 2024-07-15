@@ -9,9 +9,11 @@ To extract further information from a VCF file, I parse the text of the file and
 
 
 Although these notebooks can easily be converted to Python files, the notebook format conveniently shows the code output:
->- *VCF_annotation.ipynb* - the main file used to parse the VCF file and query the database
->- *VCF_annotation_functions.ipynb* - functions used to parse and format the data, separated from the main file for neatness
->- *test_VCF_annotation_functions.ipynb* - unit testing functions
+>*VCF_annotation.ipynb* - the main file used to parse the VCF file and query the database
+>
+>*VCF_annotation_functions.ipynb* - functions used to parse and format the data, separated from the main file for neatness
+>
+>*test_VCF_annotation_functions.ipynb* - unit testing functions
 
 Annotations used:
 - NR: depth of sequence coverage at the site of variation
